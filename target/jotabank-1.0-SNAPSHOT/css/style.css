@@ -1,0 +1,13 @@
+.align {
+    text-align: center;
+
+}
+
+.container {
+    padding: 0 25% 0 25%;
+    text-align: left;
+}
+
+.logo {
+    text-align: center;
+}

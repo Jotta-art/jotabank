@@ -2,12 +2,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>JSP - Hello World</title>
+    <title>JotaBank</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<h1><%= "Hello World!" %>
-</h1>
-<br/>
-<a href="hello-servlet">Hello Servlet</a>
+
+<div class="align">
+
+    <h1><%="Bem vindo ao JotaBank!"%>
+    </h1>
+
+    <br/>
+
+    <div class="container">
+
+        <h2>Operações:</h2>
+
+        <h3><a href="novaConta">Criar conta</a></h3>
+
+        <div class="logo"><img src="logo.jpeg" alt="Logo da empresa"></div>
+
+    </div>
+
+</div>
+
 </body>
 </html>
